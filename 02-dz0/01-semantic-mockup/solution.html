@@ -1,4 +1,54 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <!-- Ваше решение -->
+  <!-- by aynZayn -->
+  <head>
+    <meta charset="utf-8">
+    <title>Семантическая разметка страницы</title>
+    <style>
+      * {
+          color: white;
+          padding: 10px;
+          margin: 0;
+      }
+
+      html, body { padding: 0; margin: 0;  }
+      header { background-color: red; text-align: center; padding: 0; }
+      nav { background-color: orange; text-align: center; font-size:1.3em; }
+      main { background-color: green; }
+      article { background-color: blue; margin: 10px; padding: 30px; }
+      footer { background-color: violet; text-align: center; font-size: 2em; }
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1>Header</h1>
+        <nav>
+            <a href=''>Navigation 1</a>
+            <a href=''>Navigation 2</a>
+            <a href=''>Navigation 3</a>
+        </nav>
+    </header>
+
+    <main>
+        <article id='acticle1'>
+            <h2>Article 1</h2>
+            <ul>
+                <li>Оригинальная трилогия</li>
+                <li>Трилогия приквелов</li>
+                <li>Трилогия сиквелов</li>
+            </ul>
+        </article>
+
+        <article id='acticle2'>
+            <h2>Article 2</h2>
+            <ol>
+                <li>Эпизод IV - Новая надежда</li>
+                <li>Эпизод V - Исперия наносит ответный удар</li>
+                <li>Эпизод VI - Возвращение джедая</li>
+            </ol>
+        </article>
+    </main>
+
+    <footer>Footer</footer>
+  </body>
 </html>
