@@ -1,0 +1,9 @@
+﻿.container {
+    display: flex;
+    gap: 10px;
+}
+
+.container__button {
+    flex-basis: 1px;
+    flex-grow: 1;
+}
