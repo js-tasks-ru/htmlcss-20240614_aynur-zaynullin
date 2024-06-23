@@ -1,0 +1,15 @@
+﻿html {
+    min-height: 100%;
+}
+
+body {
+    background-image: url("./background.jpg");
+    background-position: bottom right;
+    background-size: cover;
+}
+
+.accordion-container {
+    --background-color: #F1EEE5;
+
+    max-width: 900px;
+}
