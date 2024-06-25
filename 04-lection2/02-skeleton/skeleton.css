@@ -1,0 +1,49 @@
+.skeleton {
+    --linear-gradient: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-between;
+    padding: 24px 32px 24px 24px;
+
+    border: 1px solid var(--grey-3, #ACB5BD);
+    border-radius: 8px;
+
+    box-sizing: border-box;
+}
+
+.skeleton__block-with-ellipse {
+    display: flex;
+    gap: 16px;
+}
+
+.skeleton__ellipse {
+    height: 64px;
+    aspect-ratio: 1 / 1;
+
+    background-color: #dde2e5;
+    border-radius: 50%;
+}
+
+.skeleton__line-block {
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.skeleton__line {
+    height: 20px;
+    flex-grow: 0;
+    background: var(--linear-gradient);
+}
+
+.skeleton__line_half-width {
+    width: 50%;
+}
+
+.skeleton__line_third-width {
+    width: 33.33%;
+}
