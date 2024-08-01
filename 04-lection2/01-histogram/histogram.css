@@ -1,0 +1,85 @@
+.histogram {
+    padding: 16px 24px 24px;
+    display: flex;
+    flex-direction: column;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+}
+
+.histogram__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.histogram__total {
+    display: flex;
+    flex-direction: column;
+
+    color: #212429;
+}
+
+.histogram__total-header {
+    opacity: 0.8;
+}
+
+.histogram__total-count {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.histogram__link {
+    margin-top: 3px;
+    text-decoration: none;
+    color: #4263EB;
+}
+
+.histogram__towers {
+    height: 50px;
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    gap: 1px;
+}
+
+.histogram__tower {
+    flex-grow: 1;
+    background-color: #4263EB;
+}
+
+.histogram__tower_size1 { height: 50%; }
+.histogram__tower_size2 { height: 67%; }
+.histogram__tower_size3 { height: 12%; }
+.histogram__tower_size4 { height: 56%; }
+.histogram__tower_size5 { height: 29%; }
+.histogram__tower_size6 { height: 63%; }
+.histogram__tower_size7 { height: 87%; }
+.histogram__tower_size8 { height: 15%; }
+.histogram__tower_size9 { height: 73%; }
+.histogram__tower_size10 { height: 90%; }
+.histogram__tower_size11 { height: 55%; }
+.histogram__tower_size12 { height: 47%; }
+.histogram__tower_size13 { height: 67%; }
+.histogram__tower_size14 { height: 71%; }
+.histogram__tower_size15 { height: 70%; }
+.histogram__tower_size16 { height: 47%; }
+.histogram__tower_size17 { height: 71%; }
+.histogram__tower_size18 { height: 10%; }
+.histogram__tower_size19 { height: 74%; }
+.histogram__tower_size20 { height: 72%; }
+.histogram__tower_size21 { height: 49%; }
+.histogram__tower_size22 { height: 31%; }
+.histogram__tower_size23 { height: 70%; }
+.histogram__tower_size24 { height: 23%; }
+.histogram__tower_size25 { height: 77%; }
+.histogram__tower_size26 { height: 16%; }
+.histogram__tower_size27 { height: 80%; }
+.histogram__tower_size28 { height: 10%; }
+.histogram__tower_size29 { height: 86%; }
+.histogram__tower_size30 { height: 58%; }
