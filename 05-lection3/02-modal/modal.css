@@ -1,0 +1,51 @@
+﻿.button__modal {
+    padding: 15px 50px;
+}
+
+.modal {
+    width: 428px;
+    padding: 30px 40px 40px;
+
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.modal::backdrop {
+    background: #C4C4C480;
+}
+
+.modal__close-button {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 0;
+
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.modal__header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #334D6E;
+}
+
+.modal__content {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #495057;
+}
